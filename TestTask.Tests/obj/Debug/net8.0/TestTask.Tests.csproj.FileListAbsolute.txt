@@ -302,3 +302,4 @@ C:\Users\szymo\OneDrive\Pulpit\TestTask\TestTask.Tests\obj\Debug\net8.0\refint\T
 C:\Users\szymo\OneDrive\Pulpit\TestTask\TestTask.Tests\obj\Debug\net8.0\TestTask.Tests.pdb
 C:\Users\szymo\OneDrive\Pulpit\TestTask\TestTask.Tests\obj\Debug\net8.0\TestTask.Tests.genruntimeconfig.cache
 C:\Users\szymo\OneDrive\Pulpit\TestTask\TestTask.Tests\obj\Debug\net8.0\ref\TestTask.Tests.dll
+C:\Users\szymo\OneDrive\Pulpit\TestTask\TestTask.Tests\obj\Debug\net8.0\TestTask.Tests.sourcelink.json

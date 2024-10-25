@@ -228,3 +228,4 @@ C:\Users\szymo\OneDrive\Pulpit\TestTask\TestTask\obj\Debug\net8.0\TestTask.genru
 C:\Users\szymo\OneDrive\Pulpit\TestTask\TestTask\obj\Debug\net8.0\ref\TestTask.dll
 C:\Users\szymo\OneDrive\Pulpit\TestTask\TestTask\obj\Debug\net8.0\TestTask.Properties.Resources.resources
 C:\Users\szymo\OneDrive\Pulpit\TestTask\TestTask\obj\Debug\net8.0\TestTask.csproj.GenerateResource.cache
+C:\Users\szymo\OneDrive\Pulpit\TestTask\TestTask\obj\Debug\net8.0\TestTask.sourcelink.json
