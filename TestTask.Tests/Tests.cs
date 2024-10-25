@@ -53,7 +53,7 @@ namespace TestTask.xUnit
         }
 
         [Fact]
-        public async Task CreateTaskTest()
+        public async Task CreateTaskTest()//This test checks that the result is true;
         {
             var dbContext = await GetDbContext();
             var mapper = GetMapper();
@@ -72,7 +72,7 @@ namespace TestTask.xUnit
         }
 
         [Fact]
-        public async Task DeleteTaskTest()
+        public async Task DeleteTaskTest()//This test checks that the result is true;
         {
             var dbContext = await GetDbContext();
             var mapper = GetMapper();
@@ -89,7 +89,7 @@ namespace TestTask.xUnit
         }
 
         [Fact]
-        public async Task GetAllTasksTest()
+        public async Task GetAllTasksTest()//This test checks that the tasksDTO is not null and that it is of type ToDoDTO.
         {
             var dbContext = await GetDbContext();
             var mapper = GetMapper();
@@ -102,7 +102,7 @@ namespace TestTask.xUnit
         }
 
         [Fact]
-        public async Task GetIncomingTasksTest()
+        public async Task GetIncomingTasksTest()//This test checks that the tasksDTO is not null or that it is null.
         {
             var dbContext = await GetDbContext();
             var mapper = GetMapper();
@@ -112,29 +112,29 @@ namespace TestTask.xUnit
 
             options.ForEach(async o =>
             {
-                List<ToDoDTO>? tasks = await taskService.GetIncomingTasks(o);
+                List<ToDoDTO>? tasksDTO = await taskService.GetIncomingTasks(o);
 
                 if (o is 1)
                 {
-                    Assert.NotNull(tasks);
+                    Assert.NotNull(tasksDTO);
                 }
                 else if (o is 2)
                 {
-                    Assert.NotNull(tasks);
+                    Assert.NotNull(tasksDTO);
                 }
                 else if (o is 3)
                 {
-                    Assert.NotNull(tasks);
+                    Assert.NotNull(tasksDTO);
                 }
                 else
                 {
-                    Assert.Null(tasks);
+                    Assert.Null(tasksDTO);
                 }
             });
         }
 
         [Fact]
-        public async Task GetSpecificTaskTest()
+        public async Task GetSpecificTaskTest()//This test checks that the taskDTO is not null, that it is of type ToDoDTO and that the title has the value "Test2". 
         {
             var dbContext = await GetDbContext();
             var mapper = GetMapper();
@@ -153,7 +153,7 @@ namespace TestTask.xUnit
         }
 
         [Fact]
-        public async Task MarkTaskAsDoneTest()
+        public async Task MarkTaskAsDoneTest()//This test checks that the result is true;
         {
             var dbContext = await GetDbContext();
             var mapper = GetMapper();
@@ -169,7 +169,7 @@ namespace TestTask.xUnit
         }
 
         [Fact]
-        public async Task SetTaskPercentCompleteTest()
+        public async Task SetTaskPercentCompleteTest()//This test checks that the result is true;
         {
             var dbContext = await GetDbContext();
             var mapper = GetMapper();
@@ -185,7 +185,7 @@ namespace TestTask.xUnit
         }
 
         [Fact]
-        public async Task UpdateTaskTest()
+        public async Task UpdateTaskTest()//This test checks that the result is true;
         {
             var dbContext = await GetDbContext();
             var mapper = GetMapper();
