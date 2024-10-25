@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestTask</name>
+    </assembly>
+    <members>
+        <member name="M:TestTask.Controllers.TaskController.GetIncomingTasks(System.Int32)">
+            <summary>
+            Type in:
+             - 1 - If you want to see tasks from this day. 
+             - 2 - If you want to see tasks from the next day. 
+             - 3 - If you want to see tasks from this week. 
+            </summary>
+        </member>
+        <member name="T:TestTask.Migrations.Init">
+            <inheritdoc />
+        </member>
+        <member name="M:TestTask.Migrations.Init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestTask.Migrations.Init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TestTask.Migrations.Init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:TestTask.ModelsDTO.NewToDoDTO.DateAndTimeOfExpiry">
+            <summary>
+            Change the date to your own. Below example.
+            </summary>
+            <example>2024-10-10T16:11:00</example>
+        </member>
+        <member name="P:TestTask.ModelsDTO.NewToDoDTO.Title">
+            <summary>
+            Maximum of 20 characters.
+            </summary>
+        </member>
+        <member name="P:TestTask.ModelsDTO.NewToDoDTO.Description">
+            <summary>
+            Maximum of 100 characters.
+            </summary>
+        </member>
+        <member name="P:TestTask.ModelsDTO.UpdateToDoDTO.DateAndTimeOfExpiry">
+            <summary>
+            The example: 2024-10-10T16:11:00
+            </summary>
+        </member>
+        <member name="P:TestTask.ModelsDTO.UpdateToDoDTO.Title">
+            <summary>
+            Maximum of 20 characters.
+            </summary>
+        </member>
+        <member name="P:TestTask.ModelsDTO.UpdateToDoDTO.Description">
+            <summary>
+            Maximum of 100 characters.
+            </summary>
+        </member>
+        <member name="T:TestTask.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:TestTask.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:TestTask.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

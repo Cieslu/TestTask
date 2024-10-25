@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  testtask:
+    image: ${DOCKER_REGISTRY-}testtask
+    container_name: TestTask
+    build:
+      context: TestTask
+      dockerfile: Dockerfile
+    depends_on:
+      - db  
+
+  db:
+    image: mysql:8.0  
+    container_name: TestTaskDB
+    environment:
+      MYSQL_ROOT_PASSWORD: TestTask123!@
+    ports:
+      - "3306:3306" 
