@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "R3lmXWYijyYXVO5JCqH4j5/qf9wlfHjyiZvcn9KxbnYtTVVTYh8mwwGd3tfm4wapLS0JBlRLEeb8T3vEWUzb3A==",
+  "dgSpecHash": "ktawK2NPKDKI7CHIM5n9AaW9HuQ4AWHa4FRiosfX9jIphoB/2B/oOhuvd2iFcEFH3+UbKXrEptIuxsN63WNAEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\szymo\\OneDrive\\Pulpit\\TestTask\\TestTask\\TestTask.csproj",
   "expectedPackageFiles": [
@@ -51,7 +51,10 @@
     "C:\\Users\\szymo\\.nuget\\packages\\system.reflection.metadata\\6.0.1\\system.reflection.metadata.6.0.1.nupkg.sha512",
     "C:\\Users\\szymo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\szymo\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
-    "C:\\Users\\szymo\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
+    "C:\\Users\\szymo\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
+    "C:\\Users\\szymo\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.4\\microsoft.netcore.app.runtime.linux-x64.8.0.4.nupkg.sha512",
+    "C:\\Users\\szymo\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.4\\microsoft.netcore.app.host.linux-x64.8.0.4.nupkg.sha512",
+    "C:\\Users\\szymo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\8.0.4\\microsoft.aspnetcore.app.runtime.linux-x64.8.0.4.nupkg.sha512"
   ],
   "logs": []
 }

@@ -4,11 +4,6 @@ services:
   testtask:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ASPNETCORE_HTTPS_PORTS=8080
-      - ASPNETCORE_HTTP_PORTS=8081
+      - ASPNETCORE_URLS=http://+:8081
     ports:
-      - "33965:8080"
       - "33966:8081"
-    volumes:
-      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
-      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro 

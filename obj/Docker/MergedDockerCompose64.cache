@@ -1,0 +1,37 @@
+name: dockercompose14354912429196300753
+services:
+  db:
+    container_name: TestTaskDB
+    environment:
+      MYSQL_ROOT_PASSWORD: TestTask123!@
+    image: mysql:8.0
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 3306
+        published: "3306"
+        protocol: tcp
+  testtask:
+    build:
+      context: C:\Users\szymo\OneDrive\Pulpit\TestTask\TestTask
+      dockerfile: Dockerfile
+    container_name: TestTask
+    depends_on:
+      db:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8081
+    image: testtask
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8081
+        published: "33966"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose14354912429196300753_default
